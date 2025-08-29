@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Commerce Product Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f9;
+      color: #333;
+    }
+
+    header {
+      background: #2c3e50;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px;
+      flex-wrap: wrap;
+      gap: 40px;
+    }
+
+    .product-image {
+      flex: 1;
+      max-width: 400px;
+    }
+
+    .product-image img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    }
+
+    .product-details {
+      flex: 1;
+      max-width: 500px;
+      background: #fff;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .product-details h2 {
+      margin-bottom: 15px;
+    }
+
+    .price {
+      font-size: 24px;
+      color: #e74c3c;
+      margin: 15px 0;
+    }
+
+    .description {
+      margin-bottom: 20px;
+      line-height: 1.6;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #27ae60;
+      color: #fff;
+      padding: 12px 25px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 16px;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background: #219150;
+    }
+
+    footer {
+      background: #2c3e50;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🛒 My E-Commerce Store</h1>
+  </header>
+
+  <div class="container">
+    <!-- Product Image -->
+    <div class="product-image">
+      <img src="https://via.placeholder.com/400" alt="Product Image">
+    </div>
+
+    <!-- Product Details -->
+    <div class="product-details">
+      <h2>Stylish Headphones</h2>
+      <p class="price">₹2,999</p>
+      <p class="description">
+        Experience premium sound quality with these stylish wireless headphones. 
+        Lightweight, comfortable, and perfect for music lovers. Long battery life 
+        and crystal-clear audio ensure an unmatched experience.
+      </p>
+      <a href="#" class="btn">Add to Cart</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 My E-Commerce Store | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
